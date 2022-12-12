@@ -1,16 +1,6 @@
 import java.util.*;
 
 
-class Solution{
-    public String decode(String[] s){
-        String res="";
-        for(int i=0;i<s.length;i++){
-            int x=Integer.parseInt(s[i],16);//inbuilt function in java can be used to convert hexadecimal to decimal
-            res+=(char)x;
-        }
-        return res;
-    }
-}
 class java_vadlachary_WilliamButchersMission
 {
 	public static void main (String[] args) throws java.lang.Exception
@@ -23,10 +13,16 @@ class java_vadlachary_WilliamButchersMission
 		    for(int i=0;i<n;i++){
 		        s[i]=scan.next();
 		    }
-		    Solution sol= new Solution();
-		    
-		    System.out.println(sol.decode(s));
+		    System.out.println(decode(s));
 		    
 		}
 	}
+	public static String decode(String[] s){
+		String res="";
+		for(int i=0;i<s.length;i++){
+		    int x=Integer.parseInt(s[i],16);//inbuilt function in java can be used to convert hexadecimal to decimal
+		    res+=(char)x;
+		}
+		return res;
+    	}
 }
