@@ -1,8 +1,5 @@
-/* package codechef; // don't place package name! */
-
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 
 class Solution{
     public String decode(String[] s){
@@ -14,7 +11,7 @@ class Solution{
         return res;
     }
 }
-class Main
+class java_vadlachary_WilliamButchersMission
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
