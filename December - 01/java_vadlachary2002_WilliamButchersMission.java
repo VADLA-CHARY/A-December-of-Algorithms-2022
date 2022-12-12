@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-class java_vadlachary_WilliamButchersMission
+class java_vadlachary2002_WilliamButchersMission
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
