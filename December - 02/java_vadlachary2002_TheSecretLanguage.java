@@ -1,6 +1,6 @@
 import java.util.*;
 
-class java_vadlachary_TheSecretLanguage
+class java_vadlachary2002_TheSecretLanguage
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
