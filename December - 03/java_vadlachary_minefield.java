@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Solution{
+class SolutionDec3{
     public void makefield(char[][] minefield){
         for(int i=0;i<minefield.length;i++) {
             for (int j = 0; j < minefield[i].length; j++) {
@@ -42,7 +42,7 @@ public class java_vadlachary_minefield {
                 minefield[i][j] = line.charAt(j);
             }
         }
-        Solution sol= new Solution();
+        SolutionDec3 sol= new SolutionDec3();
         sol.makefield(minefield);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
