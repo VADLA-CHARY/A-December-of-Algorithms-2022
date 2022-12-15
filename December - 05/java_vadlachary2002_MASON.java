@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class java_charyvadla2002_MASON {
+public class java_vadlachary2002_MASON {
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
         int price=scan.nextInt();
