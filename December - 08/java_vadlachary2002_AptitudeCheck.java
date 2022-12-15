@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class java_charyvadla2002_AptitudeCheck {
+public class java_vadlachary2002_AptitudeCheck {
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
         System.out.print("Input: ");
